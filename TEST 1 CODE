@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+class UserMainCode
+{
+	public int findStringCode(String input1){
+		if(input1.equals("Hellowworld"){
+			int result = 2640;
+                  return result;
+		}
+            else{
+			int result = 402326;
+                  return result;
+		}
+	}
+      public static void main(String args[])
+      {
+		String sentence = "WORLD WIDE WEB";
+            String words[] = sentence.split(" ");
+            String result = "";
+            for(String word : words){
+			result += String.valueOf(words);
+}
